@@ -1,0 +1,117 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    height: 100vh;
+}
+
+header{
+    position: absolute;
+    background: #000000;
+    top: 0;
+    left: 0;
+    padding: 0 100px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+header .hero{
+    color: rgb(255, 253, 253);
+    height: 60px;
+    line-height: 60px;
+    font-size: 24px;
+    float: left;
+    font-weight: bold;
+}
+
+header nav{
+    float: right;
+}
+
+header nav ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li{
+    list-style: none;
+}
+
+header nav ul li a{
+    color: rgb(255, 254, 254);
+    height: 60px;
+    line-height: 60px;
+    padding: 0 20px;
+    text-decoration: none;
+    display: block;
+}
+
+header nav ul li a:hover{
+    color: #ffffff;
+    background-color: #aaaaaa;
+}
+
+.active{
+    color: #ffffff;
+    background-color: #aaaaaa;
+}
+
+
+.about{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #ffffff;
+}
+
+.about img{
+    height: auto;
+    width: 430px;
+}
+
+.about-text{
+    width: 550px;
+}
+
+.main{
+    width: 1100px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.row{
+    display: flex;
+}
+
+.column{
+    flex: 40%;
+    padding: 40px;
+}
+
+.experience img{
+    padding: 70px 0;
+    height: auto;
+    width: 200px;
+}
+
+.leadership-row{
+    margin: 100px auto;
+    width: 50%;
+    text-align: left;
+}
+
+.leadership img{
+    margin: 0 20px 20px 0;
+    float: left;
+    width: 30%;
+}
+
+.card-body {
+    display: block;
+    margin-top: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
